@@ -5,7 +5,7 @@ request = require 'request'
 cheerio = require 'cheerio'
 Twit    = require 'twit'
 
-# Answer http requests (depends on hosting provider)
+# Answer http requests (depends on hosting provider, some require that you need to handle http requests)
 app = express()
 app.use morgan('dev')
 
